@@ -1,0 +1,40 @@
+.app_header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.body{
+    background-color: #f5f6fa;
+}
+.app_stats
+{
+    display: flex;
+    justify-content: space-between;
+}
+.app
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.app_left
+{
+    flex: 0.75;
+    /* this will take 90% of screen */
+}
+
+@media (max-width:990px)
+{
+    .app{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+.app_right
+{
+    margin-top: 10px;
+    
+}
